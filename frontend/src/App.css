@@ -1,0 +1,80 @@
+/* Base Body Styles  */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light and Dark Theme Classes created */
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* News Feed Background Styles added */
+.news-feed-background {
+  background-color: #F1F1F1; 
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  .news-feed-background {
+    background-color: #333333; 
+  }
+}
+
+/* Utility Classes added */
+.bg-dark {
+  background-color: #1A1A1A;
+}
+
+.bg-light {
+  background-color: #ffffff;
+}
+
+.text-dark {
+  color: #000000;
+}
+
+.text-light {
+  color: #E8E8E8;
+}
+
+@keyframes fireAnimation {
+  0% {
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes iconSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes iconPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+@keyframes iconBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}

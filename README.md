@@ -3,21 +3,9 @@
 
 Welcome to **Inbox Zing!** 🎉 This React-based application is designed to bring you the latest news and updates from various media outlets, all in one convenient place. Enjoy a sleek, intuitive interface with easy navigation options to set your preferences, customize your experience, and stay informed. Plus, earn points and level up as you read!
 
-Click here for the link to the application: https://inboxzing-frontend-739742167446.us-central1.run.app
 
-Alternatively, follow the steps under the **Installation & Setup** Section below to run the application locally.
+Follow the steps under the **Installation & Setup** Section below to run the application locally.
 
----
-
-## 👥 Team Members
-
-Rohan Sabu
-
-Komal Neupane
-
-Ali Tamer
-
-Olivia Xiang
 
 ---
 
@@ -79,7 +67,7 @@ To set up Inbox Zing locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/rohanv32/InboxZingReact.git
+   git clone https://github.com/rohanv32/Inbox-Zing.git
 
 2. **Navigate to the Frontend Directory**:
    ```bash
